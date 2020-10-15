@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="css/estilo3.css" rel="stylesheet">
+        <title>Aula de Formularios</title>
+    </head>
+    <body>
+
+        <form action="futuramente.php">
+            <label for="txtNome">Nome:</label><br>
+            <input type="text" id="txtNome" value="Vitor">
+            <label for="linguagens">Escolher o que mais gostou:</label>
+            <select id="linguagens">
+                <option value="PHP">Php</option>
+                <option value="ASP">Asp</option>
+            </select><br>
+            <label for="linguagensv2">Escolha o que gostou v2:</label>
+            <select id="linguagensv2" size="3">
+                <option value="PHP">Php</option>
+                <option value="ASP">Asp</option>
+                <option value="JAVASCRIPT">Javascript</option>
+                <option value="VUEJS">VueJS</option>
+            </select><br>
+            <label for="cores">Qual a sua cor favorita?</label>
+            <input type="color" id="cores" name="cores"><br>
+            <label for="aniversario">Aniversário</label>
+            <input type="date" id="aniversário" name="aniversario">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Redefinir">
+        </form>
+    </body>
+</html>
