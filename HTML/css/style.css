@@ -1,0 +1,27 @@
+div{
+    width: 100px;
+}
+.Esqcima{
+  position: fixed;
+  background: red;
+  left: 0px;
+  top: 0px;
+}
+.Esqbaixo{
+  position: fixed;
+  background-color: wheat;
+  bottom: 0px;
+  left:0px ;
+}
+.Dircima{
+  position: fixed;
+  background-color: yellow;
+  top: 0px;
+  right:0px ;
+}
+.Dirbaixo{
+  position: fixed;
+  background-color: blue;
+  bottom: 0px;
+  right:0px ;
+}
