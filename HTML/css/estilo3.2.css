@@ -1,0 +1,42 @@
+.borda {
+    border: 2px solid gray;
+    margin-bottom: 10px;
+
+}
+label {
+	display: block;
+    float: left;
+}
+    label, input{
+        width:500px;
+        margin: 3px 0;
+}
+    input {
+	width:100px;
+}
+    fieldset {
+	
+    width:200px;
+    }
+    form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    }
+    form div + div {
+        margin-top: 1em;
+    }
+    label {
+        display: inline-block;
+    width: 90px;
+    text-align: right;
+    }
+    input, textarea {
+    font: 1em sans-serif;
+    width: 400px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
