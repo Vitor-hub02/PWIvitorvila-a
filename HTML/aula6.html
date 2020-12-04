@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Atividade de Javascript e JQuery</title>
+    </head>
+    <body>
+        <button type="button" name="button" id="botaoMagico">Aperte aqui para visualizar a surpresa! :)</button>
+        <div id="entendimentodeJavascript"></div>
+        <div class="exemplodecódigo"></div>
+        <div class="exemplodecódigo"></div>
+        <div class="exemplodecódigo"></div>
+        <div class="outroexemplo"></div>
+        <div class="outroexemplo"></div>
+        <div class="outroexemplo"></div>
+        <a href="aula6II.html">Próximo link da atividade</a>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $('#botaoMagico').click(() => {
+                $('#entendimentodeJavascript').html('O meu entendimento de Javascript é que ela é uma linguagem de programação que conseguimos colocar funcionalidades das páginas de web com elementos da página como: bordas, imagens.') //entendimento
+                $('.exemplodecódigo').html('Para definir uma data basta usar esse comando:')
+                $('.outroexemplo'). html('Para pegar uma UML basta usar esse exemplo aqui:')
+            })
+        </script>
+    </body>
+</html>
