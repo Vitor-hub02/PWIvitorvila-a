@@ -4,14 +4,14 @@ body {
 }
 h1, h2,h3 {
     font-family: serif,sans-serif;
-    color: rgba(0, 0, 0, 0) !important ;
+    color: rgb(0, 0, 0) !important;
 }
 
 .botao {
-        color: #ffffff;
+        color: #a19f9f;
         text-decoration: none;
         padding: 10px 30px;
-        background-color: #191970;
+        background-color: #000000;
         font-size: .9em;
         border-radius: 3px;
 }
@@ -20,12 +20,12 @@ nav {
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #191970;
+        background-color: #ffbf49;
 }
 
 nav > a {
         text-decoration: none;
-        color: #ffffff;
+        color: #000000;
         font-weight: 800;
         font-size: 32px;
         font-family: 'Courier New', Courier, monospace;
@@ -51,24 +51,24 @@ nav ul il a {
         padding: 10px 0;
         width: 100%;
         text-decoration: none;
-        color: #ffffff;
+        color: #ff0000;
 }
 
 header {
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-image: url("../img/mecanica.jpg ");
+        background-image: url("../img/advocacia2.jpg ");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        color: #ffffff;
+        color: #909090;
         text-align: center;
         padding: 20px;
 }
 
 header h1{
-    color:#ffffff ;
+    color:#5a4343 ;
 }
 
 header p{
@@ -81,8 +81,8 @@ header p{
     align-items: center;
     text-align: center;
     padding: 10px 10px 20px 20px;
-    background-color:#191970;
-    color: #ffffff;
+    background-color:#ffbf49;
+    color: #909090;
 }
 
 #sobre h2 {
@@ -130,13 +130,13 @@ header p{
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #191970;
-    color: #ffffff;
+    background-color: #ffbf49;
+    color: #0a0303;
 }
 
 footer a {
     text-decoration: none;
-    color: #00ffff ;
+    color: #060f05 ;
 }
 
 header {
