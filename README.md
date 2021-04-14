@@ -10,3 +10,5 @@
    estudando para depois começar a trabalhar. As minhas ambições nesse  
    curso é basicamente aprender a programar, fazer códigos e eu já amo a
    área de informatica então vou me dar bem!
+
+<code><img height= "20"src= "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"></code>
